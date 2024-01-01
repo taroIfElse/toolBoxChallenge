@@ -1,0 +1,21 @@
+{
+  "name": "challengetoolbox",
+  "version": "1.0.0",
+  "description": "Backend in nodejs for the toolbox challenge",
+  "main": "Backend in nodejs for the toolbox challenge",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node app.js"
+  },
+  "author": "Lautaro Avecilla",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0"
+  }
+}
